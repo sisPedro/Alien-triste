@@ -1,0 +1,5 @@
+FUNCIONES PARA LA CARGA DE MAPA
+derivar parametros necesarios para ubicacion del personaje, objetos y limites
+AMPLIAR CLASE MAPA
+mapa deberia tener funciones para devolver al main a saber, texturas a cargar, nombres de las imagenes. 
+(que copien al render y sea presentado en loop game)
