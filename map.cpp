@@ -1,4 +1,13 @@
 #include "map.h"
+#ifndef _MSC_VER
+#include <cstring>
+// strcpy_s solo existe en MSVC
+template <size_t N> static void strcpy_s(char (&dest)[N], const char *src)
+{
+	strncpy(dest, src, N - 1);
+	dest[N - 1] = '\0';
+}
+#endif
 
 map::map()
 {
